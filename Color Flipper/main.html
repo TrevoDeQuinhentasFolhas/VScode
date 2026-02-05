@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Random Buttons</title>
+    <style>
+        #red{
+            background-color: red;
+        }
+        #green{
+            background-color: green;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #gray{
+            background-color: gray;
+        }
+        button{
+            border-radius: 6px;
+            width: 100px;
+            height: 70px;
+            margin: 7px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Color Flipper</h3>
+    <button id="red" onclick="setColor('red')">Red</button>
+    <button id="green" onclick="setColor('green')">Green</button>
+    <button id="blue" onclick="setColor('blue')">Blue</button>
+    <button onclick="randomColor()">Random</button>
+    <button id="gray" onclick="setColor('white')">Clear</button>
+    <script src="index.js"></script>
+</body>
+</html>
